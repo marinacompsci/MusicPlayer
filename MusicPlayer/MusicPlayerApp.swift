@@ -9,9 +9,11 @@ import SwiftUI
 
 @main
 struct MusicPlayerApp: App {
+    var musicPlayer = MusicPlayerViewModel()
+    
     var body: some Scene {
         WindowGroup {
-            ContentView()
+            ContentView(musicPlayer: musicPlayer)
         }
     }
 }

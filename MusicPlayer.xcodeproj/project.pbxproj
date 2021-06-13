@@ -7,6 +7,8 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		F11B413E267631A9006F2D41 /* MusicPlayerModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = F11B413D267631A9006F2D41 /* MusicPlayerModel.swift */; };
+		F11B414226763910006F2D41 /* MusicPlayerViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = F11B414126763910006F2D41 /* MusicPlayerViewModel.swift */; };
 		F13E9F2A2672CA8900936486 /* MusicPlayerApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = F13E9F292672CA8900936486 /* MusicPlayerApp.swift */; };
 		F13E9F2C2672CA8900936486 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = F13E9F2B2672CA8900936486 /* ContentView.swift */; };
 		F13E9F2E2672CA8C00936486 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = F13E9F2D2672CA8C00936486 /* Assets.xcassets */; };
@@ -14,6 +16,8 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		F11B413D267631A9006F2D41 /* MusicPlayerModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MusicPlayerModel.swift; sourceTree = "<group>"; };
+		F11B414126763910006F2D41 /* MusicPlayerViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MusicPlayerViewModel.swift; sourceTree = "<group>"; };
 		F13E9F262672CA8900936486 /* MusicPlayer.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = MusicPlayer.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		F13E9F292672CA8900936486 /* MusicPlayerApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MusicPlayerApp.swift; sourceTree = "<group>"; };
 		F13E9F2B2672CA8900936486 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
@@ -52,11 +56,13 @@
 		F13E9F282672CA8900936486 /* MusicPlayer */ = {
 			isa = PBXGroup;
 			children = (
+				F11B413D267631A9006F2D41 /* MusicPlayerModel.swift */,
 				F13E9F292672CA8900936486 /* MusicPlayerApp.swift */,
 				F13E9F2B2672CA8900936486 /* ContentView.swift */,
 				F13E9F2D2672CA8C00936486 /* Assets.xcassets */,
 				F13E9F322672CA8C00936486 /* Info.plist */,
 				F13E9F2F2672CA8C00936486 /* Preview Content */,
+				F11B414126763910006F2D41 /* MusicPlayerViewModel.swift */,
 			);
 			path = MusicPlayer;
 			sourceTree = "<group>";
@@ -140,6 +146,8 @@
 			files = (
 				F13E9F2C2672CA8900936486 /* ContentView.swift in Sources */,
 				F13E9F2A2672CA8900936486 /* MusicPlayerApp.swift in Sources */,
+				F11B413E267631A9006F2D41 /* MusicPlayerModel.swift in Sources */,
+				F11B414226763910006F2D41 /* MusicPlayerViewModel.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
